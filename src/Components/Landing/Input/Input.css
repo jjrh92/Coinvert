@@ -1,0 +1,8 @@
+/* 
+Esto elimina las flechas que vienen por default en el componente input number */
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    
+}

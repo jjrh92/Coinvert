@@ -25,9 +25,9 @@ export default function Header () {
 
     <HeaderContainer>
         <Typography sx={{ flexGrow: 1, }}>
-            <Button variant='text' href='/' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold",}}>Coinvert V-1.0.0</Button>
+            <Button draggable="false" variant='text' href='/' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold",}}>Coinvert V-1.0.0</Button>
         </Typography>
-        <Button variant='text' href='https://www.jjrh92.dev' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold"}}>Contact</Button>
+        <Button draggable="false" variant='text' target='_blank' rel='noopener noreferrer' href='https://www.jjrh92.dev' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold"}}>Contact</Button>
     </HeaderContainer>
     
   );

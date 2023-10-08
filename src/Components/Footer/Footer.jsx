@@ -22,7 +22,7 @@ export default function Footer () {
     
     <FooterContainer>
 
-        <Button variant='text' href='' sx={{color: "lightyellow", fontSize: "18px", fontWeight: "bold",}}>© 2023 | jjrh92.dev</Button>
+      <Button draggable="false" variant='text' target='_blank' rel='noopener noreferrer' href='https://www.jjrh92.dev' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold"}}>2023 | jjrh92.dev</Button>
 
     </FooterContainer>
 
