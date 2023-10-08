@@ -25,10 +25,9 @@ export default function Header () {
 
     <HeaderContainer>
         <Typography sx={{ flexGrow: 1, }}>
-            <Button variant='text' href='' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold",}}>Coinvert V-1.0.0</Button>
+            <Button variant='text' href='/' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold",}}>Coinvert V-1.0.0</Button>
         </Typography>
-        <Button className='headerLinks' variant='text' href='' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold"}}>About</Button>
-        <Button variant='text' href='' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold"}}>Contact</Button>
+        <Button variant='text' href='https://www.jjrh92.dev' sx={{color: "lightyellow", fontSize: "16px", fontWeight: "bold"}}>Contact</Button>
     </HeaderContainer>
     
   );
