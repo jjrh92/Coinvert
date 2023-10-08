@@ -96,6 +96,7 @@ const InputCurrencySelect = styled ("select") ({
     height: "35px",
     width: "50%",
     borderRadius: "5px",
+    textTransform: "uppercase",
 
 });
 
