@@ -7,11 +7,12 @@ const InputContainer = styled ("section") ({
     display: 'flex',
     flexDirection: 'row',
     padding: "50px",
-    backgroundColor: "green",
-    border: "1px solid yellow",
+    backgroundColor: "transparent",
+    border: "1px solid steelblue",
     borderRadius: "15px",
-    boxShadow: "1px 1px 2px 2px black",
+    boxShadow: "2px 1px 1px 1px steelblue",
     marginBottom: "14px",
+    gap: "30px",
 
 });
 
@@ -19,10 +20,12 @@ const InputLeftContainer = styled ("div") ({
 
     width: "50%",
     display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'start',
+    flexDirection: 'column',
     flexWrap: "wrap",
-    justifyContent: "start",
-    textAlign: "start",
-    gap: "15px",
+    gap: "5px",
+
 
 });
 
@@ -38,22 +41,20 @@ const InputLabel = styled ("label") ({
 
 const InputCurrency = styled ("input") ({
 
-    width: "100%",
-    backgroundColor: "green",
+    backgroundColor: "lightyellow",
     outline: "none",
     height: "30px",
-    color: "lightyellow",
-    borderTop: "1px solid black",
-    borderRight: "1px solid black",
-    borderBottom: "1px solid lightgreen",
-    borderLeft: "1px solid lightgreen",
+    color: "steelblue",
+    border: "1px solid transparent",
+    borderRadius: "5px",
     fontFamily: "Helvetica",
     fontSize: "30px",
     cursor: "pointer",
+    width: "100%",
 
     '::placeholder': {
 
-        color: "lightyellow",
+        color: "steelblue",
 
     },   
 
@@ -63,9 +64,11 @@ const InputRightContainer = styled ("div") ({
 
     width: "50%",
     display: 'flex',
+    justifyContent: 'end',
+    alignItems: 'end',
+    flexDirection: 'column',
     flexWrap: "wrap",
-    justifyContent: "end",
-    textAlign: "end",
+    gap: "5px",
 
 });
 
@@ -74,9 +77,10 @@ const InputCurrencyType = styled ("span") ({
     color: "black",
     width: "100%",
     fontFamily: "Helvetica",
-    fontSize: "20px",
+    fontSize: "30px",
     color: "lightyellow",
     userSelect: "none",
+    textAlign: "end",
 
 });
 
@@ -85,14 +89,13 @@ const InputCurrencySelect = styled ("select") ({
     outline: "none",
     cursor: "pointer",
     fontFamily: "Helvetica",
-    textTransform: "uppercase",
     fontSize: "20px",
-    color: "lightyellow",
-    backgroundColor: "green",
-    borderTop: "1px solid black",
-    borderRight: "1px solid black",
-    borderBottom: "1px solid lightgreen",
-    borderLeft: "1px solid lightgreen",
+    color: "steelblue",
+    backgroundColor: "lightyellow",
+    border: "1px solid transparent",
+    height: "35px",
+    width: "50%",
+    borderRadius: "5px",
 
 });
 
@@ -112,7 +115,7 @@ export default function InputSelection ({label, amount, onAmountChange, onCurren
         </InputLeftContainer>
 
         <InputRightContainer>
-            <InputCurrencyType>Currency Type</InputCurrencyType>
+            <InputCurrencyType>Currency</InputCurrencyType>
 
             <InputCurrencySelect id={`${id02}`} value={selectedCurrency} onChange={(e) => {onCurrencyChange && onCurrencyChange (e.target.value)}} disabled={currencyDisabled}>{currencyOptions.map((currency) => (
 
