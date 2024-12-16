@@ -39,7 +39,7 @@ App simple para la conversión de divisas.
 Built With <img src="https://media0.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="30px">Hecho Con
 </h1>
 
-ReactJS, MaterialUI, currencyapi.com, freecurrencyapi.com, https://github.com/fawazahmed0/currency-api
+ReactJS, MaterialUI, https://github.com/fawazahmed0/currency-api
 
 <!-- GETTING STARTED -->
 <h1 align="center"> 
