@@ -90,7 +90,7 @@ export default function InputSelection({
   onAmountChange,
   onCurrencyChange,
   currencyOptions = [],
-  selectedCurrency = "clp",
+  selectedCurrency = "usd",
   amountDisabled = false,
   currencyDisabled = false,
   id01 = "",
