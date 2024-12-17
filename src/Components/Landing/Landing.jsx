@@ -58,7 +58,7 @@ const ButtonContainer = styled("div")({
 });
 
 export default function Landing() {
-  const [amount, setAmount] = useState("");
+  const [amount, setAmount] = useState("1");
   const [from, setFrom] = useState("usd");
   const [to, setTo] = useState("eur");
   const [convertedAmount, setConvertedAmount] = useState("");
@@ -121,7 +121,7 @@ export default function Landing() {
             amount={convertedAmount}
             onCurrencyChange={(currency) => setTo(currency)}
             selectedCurrency={to}
-            amountDisabled={true}
+            amountDisabled={false}
             currencyOptions={options}
             id01="InputCurrency02"
             id02="InputCurrencySelect02"

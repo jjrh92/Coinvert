@@ -19,7 +19,7 @@
     Coinvert
     <br />
     <br />
-    <a href="https://coinvert-jjrh92.vercel.app/">View Demo - Ver Demo</a>
+    <a href="https://coinvert.julioreyes.dev/">View Demo - Ver Demo</a>
     ·
     <a href="https://github.com/jjrh92/Coinvert/issues">Report Bug - Reportar Bug</a>
     ·
@@ -82,7 +82,7 @@ Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" w
 
 [Via Github](https://github.com/jjrh92)
 
-[Via E-Mail](mailto:admin@julioreyes.dev)
+[Via E-Mail](mailto:contact@julioreyes.dev)
 
 [Via Telegram](https://t.me/jjrh92)
 

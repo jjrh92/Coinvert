@@ -43,7 +43,6 @@ const InputCurrency = styled("input")({
   fontSize: "30px",
   cursor: "pointer",
   width: "100%",
-
   "::placeholder": {
     color: "steelblue",
   },
