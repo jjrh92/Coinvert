@@ -102,7 +102,7 @@ export default function InputSelection({
         <InputCurrency
           id={`${id01}`}
           type="number"
-          placeholder="Amount"
+          placeholder="Result"
           disabled={amountDisabled}
           value={amount}
           onChange={(e) =>

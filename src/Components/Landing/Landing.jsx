@@ -115,10 +115,9 @@ export default function Landing() {
               Swap Values
             </Button>
           </ButtonContainer>
-
           <Input
             label="To"
-            amount={convertedAmount}
+            amount={parseFloat(convertedAmount).toFixed(3)} // Trim to 3 decimals
             onCurrencyChange={(currency) => setTo(currency)}
             selectedCurrency={to}
             amountDisabled={false}
@@ -126,7 +125,6 @@ export default function Landing() {
             id01="InputCurrency02"
             id02="InputCurrencySelect02"
           />
-
           <ButtonContainer>
             <Button
               color="primary"
