@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jjrh92/Coinvert">
-    <img src="https://img.icons8.com/emoji/96/euro-banknote-emoji.png" alt="Logo" width="200" height="200">
+    <img src="https://emojisparacopiar.com/wp-content/uploads/2021/05/%F0%9F%92%B6-emoji.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Welcome - Bienvenid@</h3>
